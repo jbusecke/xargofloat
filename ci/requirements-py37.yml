@@ -1,10 +1,17 @@
-name: test_env
+name: xargofloat_test
 channels:
   - conda-forge
 dependencies:
+  # Required for full project functionality (dont remove)
   - pytest
-  - future
-  - flake8
+  # Examples (remove and add as needed)
+  - xarray
+  - numpy
+  - scipy
+  - dask
+  - netcdf4
+  - pandas
+  - matplotlib
+  - pip
   - pip:
-    - codecov
-    - pytest-cov
+    - git+https://github.com/jbusecke/xarrayutils.git

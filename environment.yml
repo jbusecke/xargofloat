@@ -4,9 +4,8 @@ channels:
 dependencies:
   # Required for full project functionality (dont remove)
   - pytest
+  - ipykernel
   # Examples (remove and add as needed)
-  - jupyter
-  - jupyterlab
   - xarray
   - numpy
   - scipy
@@ -14,3 +13,7 @@ dependencies:
   - netcdf4
   - pandas
   - matplotlib
+  - astropy # eliminate once the dependecy is not strict upstream in xarrayutils anymore
+  - pip
+  - pip:
+    - git+https://github.com/jbusecke/xarrayutils.git
