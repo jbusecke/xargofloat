@@ -20,7 +20,7 @@ before_install:
 
 install:
   - conda env create -n test_env --file ci/requirements-$CONDA_ENV.yml
-  - source activate xargofloat_test
+  - source activate test_env
   - conda list
   - pip install --no-deps -e .
 
