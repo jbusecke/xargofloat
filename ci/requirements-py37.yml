@@ -15,3 +15,6 @@ dependencies:
   - pip
   - pip:
     - git+https://github.com/jbusecke/xarrayutils.git
+    # Required for full project functionality (dont remove)
+    - codecov
+    - pytest-cov
