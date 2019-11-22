@@ -12,6 +12,7 @@ dependencies:
   - netcdf4
   - pandas
   - matplotlib
+  - astropy # delete when the requirements for xarrayutils are eased
   - pip
   - pip:
     - git+https://github.com/jbusecke/xarrayutils.git
