@@ -25,3 +25,16 @@ Check out the [demo_notebook](notebooks/demo.ipynb) for examples.
 
 
 <p><small>Project based on the <a target="_blank" href="https://github.com/jbusecke/cookiecutter-science-project">cookiecutter science project template</a>.</small></p>
+
+
+## Contributing to 'xargofloats' (assumes installed versions of git and [conda](https://docs.conda.io/en/latest/miniconda.html))
+1. Fork the repository on github.
+2. Clone your fork to your local machine with `git clone ...`
+3. Navigate to your local `xargofloat` folder and install the test environment with `conda env create -f envrionment.yml`
+4. Activate the environment with `conda activate xargofloat`
+5. Run the local tests with `py.test -v`
+6. Create a new git branch with `git checkout -b <branchname>
+7. Add tests/modify code
+8. Run tests to confirm that all tests pass locally
+9. Push the branch back to your fork with `git push -u origin <branchname>`
+10. Start a pull request on github.
