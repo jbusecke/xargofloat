@@ -1,6 +1,8 @@
 import xarray as xr
 import numpy as np
 from xarrayutils.utils import coord_remapping
+import warnings
+warnings.warn("`xargofloat` will be decprecated in favor of `argopy` (https://argopy.readthedocs.io/en/latest/data_manipulation.html#Interpolation-to-standard-levels). Please update your code accordingly",DeprecationWarning) 
 
 def interpolate_to_pressure(ds, p=np.arange(0, 2000,2)):
     ds = ds.copy()
