@@ -1,3 +1,6 @@
+> :warning: **This package is deprecated in favor of [argopy](https://argopy.readthedocs.io/en/latest/index.html)**. Please see their documentation on [interpolating argo floats](https://argopy.readthedocs.io/en/latest/data_manipulation.html#Interpolation-to-standard-levels)
+
+
 xargofloat
 ==============================
 [![Build Status](https://travis-ci.com/jbusecke/xargofloat.svg?branch=master)](https://travis-ci.com/jbusecke/xargofloat)
